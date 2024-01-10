@@ -1,0 +1,1 @@
+{"generator":"Code Snippets v3.6.2","date_created":"2024-01-07 16:33","snippets":[{"id":9,"name":"Enable WP Custom Field when ACF Installed","code":"add_filter('acf\/settings\/remove_wp_meta_box', '__return_false');","tags":["ACF"],"scope":"admin","active":true,"modified":"2024-01-07 16:14:50","revision":"5"}]}

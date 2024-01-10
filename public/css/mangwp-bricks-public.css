@@ -1,0 +1,18 @@
+.save-thumbnail-button {
+    transform: translateY(500%) rotate(-90deg);
+    left: 0;
+    transform-origin: top left;
+    position: fixed;
+    background: #000;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 10px 10px 0;
+    z-index: 2;
+    cursor: pointer;
+}
+.save-thumbnail-button svg{
+    fill:#fff;
+}
