@@ -80,3 +80,15 @@ function run_mangwp_bricks() {
 
 }
 run_mangwp_bricks();
+
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/mangwp/mangwp-bricks/',
+	__FILE__,
+	'mangwp-bricks'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('stable-branch-name');
