@@ -58,7 +58,7 @@ class Mangwp_Bricks_Admin
 		add_submenu_page(
 			'mangwp',
 			__('Submenu Page', 'mangwp'),
-			__('Submenu', 'mangwp'),
+			__('Coming Soon', 'mangwp'),
 			'manage_options',
 			'mangwp-submenu',
 			array($this, 'admin_html_to_json_page_callback')
