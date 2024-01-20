@@ -15,8 +15,8 @@
  * @wordpress-plugin
  * Plugin Name:       Mangwp Bricks
  * Plugin URI:        https://mangwp.com
- * Description:       Must have plugin for mangwp.com web development
- * Version:           1.0.2
+ * Description:       Must have plugin for mangwp web development
+ * Version:           1.0.3
  * Author:            Ivan Nugraha
  * Author URI:        https://mangwp.com/
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'MANGWP_BRICKS_VERSION', '1.0.2' );
+define( 'MANGWP_BRICKS_VERSION', '1.0.3' );
 
 /**
  * The code that runs during plugin activation.
